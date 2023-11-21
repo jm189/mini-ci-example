@@ -36,7 +36,7 @@ jobs:
 
       # Boot Docker builder using by default the docker-container
       - name: Set up Docker Buildx
-      uses: docker/setup-buildx-action@v3
+        uses: docker/setup-buildx-action@v3
       
       # Login to DockerHub account
       - name: Login to DockerHub
